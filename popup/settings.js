@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const GITHUB_REPO = "Hiphex/auto-mcgraw";
+  const DEEPSEEK_URL_PATTERNS = [
+    "https://chat.deepseek.com/*",
+    "https://deepseek.chat/*",
+  ];
+
   const chatgptButton = document.getElementById("chatgpt");
   const geminiButton = document.getElementById("gemini");
   const deepseekButton = document.getElementById("deepseek");
@@ -78,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const geminiAvailable = geminiTabs.length > 0;
 
           chrome.tabs.query(
-            { url: "https://chat.deepseek.com/*" },
+            { url: DEEPSEEK_URL_PATTERNS },
             (deepseekTabs) => {
               const deepseekAvailable = deepseekTabs.length > 0;
 
@@ -135,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
       latestVersionElement.textContent = "Checking...";
 
       const response = await fetch(
-        "https://api.github.com/repos/GooglyBlox/auto-mcgraw/releases/latest"
+        `https://api.github.com/repos/${GITHUB_REPO}/releases/latest`
       );
 
       if (!response.ok) {

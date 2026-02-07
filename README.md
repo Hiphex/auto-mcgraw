@@ -4,9 +4,9 @@
 
 <img src="assets/icon.png" alt="Auto-McGraw Logo" width="200">
 
-[![Release](https://img.shields.io/github/v/release/GooglyBlox/auto-mcgraw?include_prereleases&style=flat-square&cache=1)](https://github.com/GooglyBlox/auto-mcgraw/releases)
-[![License](https://img.shields.io/github/license/GooglyBlox/auto-mcgraw?style=flat-square&cache=1)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/GooglyBlox/auto-mcgraw?style=flat-square&cache=1)](https://github.com/GooglyBlox/auto-mcgraw/issues)
+[![Release](https://img.shields.io/github/v/release/Hiphex/auto-mcgraw?include_prereleases&style=flat-square&cache=1)](https://github.com/Hiphex/auto-mcgraw/releases)
+[![License](https://img.shields.io/github/license/Hiphex/auto-mcgraw?style=flat-square&cache=1)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/Hiphex/auto-mcgraw?style=flat-square&cache=1)](https://github.com/Hiphex/auto-mcgraw/issues)
 
 *Automate your McGraw Hill Smartbook homework with AI integration (ChatGPT, Gemini & DeepSeek)*
 
@@ -24,7 +24,7 @@
 
 ## Installation
 
-1. Download the latest zip from the [releases page](https://github.com/GooglyBlox/auto-mcgraw/releases)
+1. Download the latest zip from the [releases page](https://github.com/Hiphex/auto-mcgraw/releases)
 2. Extract the zip file to a folder
 3. Open Chrome and go to `chrome://extensions/`
 4. Enable "Developer mode" in the top right
@@ -65,4 +65,4 @@ This tool is for educational purposes only. Use it responsibly and be aware of y
 
 ## Issues
 
-Found a bug? [Create an issue](https://github.com/GooglyBlox/auto-mcgraw/issues).
+Found a bug? [Create an issue](https://github.com/Hiphex/auto-mcgraw/issues).
